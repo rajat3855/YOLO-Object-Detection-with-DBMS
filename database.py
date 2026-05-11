@@ -22,7 +22,7 @@ def save_detection(filename: str, labels: list):
     conn.commit()
     conn.close()
 
-def get_history():
+def get history():
     conn = sqlite3.connect("detections.db")
     rows = conn.execute(
         "SELECT * FROM detections ORDER BY timestamp DESC"
