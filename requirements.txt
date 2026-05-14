@@ -1,5 +1,5 @@
 fastapi
 uvicorn
-ultralytics
+yolo(ultralytics)
 opencv-python
 python-multipart
