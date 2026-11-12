@@ -1,1 +1,0 @@
-# YOLO-Object-Detection-with-DBMS
